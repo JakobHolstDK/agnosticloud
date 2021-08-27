@@ -2,8 +2,8 @@ for server in `cat servers.lst`
 do
   echo "- name: $server"
   echo "  distro: centos-8"
-  echo "  memory: 2096"
-  echo "  vcpus: 2"
+  echo "  memory: 256"
+  echo "  vcpus: 1"
   echo "  bootcmd:"
   echo "    - yum update -y"     
   echo 

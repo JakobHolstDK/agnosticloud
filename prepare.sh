@@ -13,7 +13,7 @@ vl up
 vl ansible_inventory > inventory
 pip install kolla-ansible
 mkdir -p /etc/kolla
-
+cp -r /usr/local/share/kolla-ansible/etc_examples/kolla/* /etc/kolla
 
 echo "All setup"
 
