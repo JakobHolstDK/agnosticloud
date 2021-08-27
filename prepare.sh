@@ -7,6 +7,8 @@ pip install virt-lightning
 vl down
 vl fetch centos-7
 vl fetch centos-8
+cat virt-lightning.yaml |grep "\- name"|awk '{ print $3 }' |xargs -i{} vl stop {}
+
 vl up
 vl ansible_inventory > inventory
 
