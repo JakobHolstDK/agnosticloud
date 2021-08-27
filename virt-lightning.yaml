@@ -1,0 +1,34 @@
+- name: centos7venv
+  distro: centos-7
+  memory: 4096
+  vcpus: 2
+  bootcmd:
+    - yum update -y
+    - sed "s/#UseDNS yes/UseDNS no/" /etc/ssh/sshd_config > /tmp/sshd_config
+    - cp /tmp/sshd_config /etc/ssh/sshd_config
+    - systemctl restart sshd'
+
+- name: centos8venv
+  distro: centos-8
+  memory: 4096
+  vcpus: 2
+  bootcmd:
+    - yum update -y
+
+
+- name: designate
+  distro: centos-8
+  memory: 4096
+  vcpus: 8
+  bootcmd:
+    - yum update -y
+
+
+- name: openstack
+  distro: centos-8
+  memory: 4096
+  vcpus: 8
+  bootcmd:
+    - yum update -y
+
+
