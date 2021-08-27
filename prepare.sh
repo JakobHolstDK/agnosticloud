@@ -1,7 +1,8 @@
 /usr/bin/rm -r  /tmp/disposeablepipevn 2>/dev/null
 python3 -m venv /tmp/disposeablepipevn
 source /tmp/disposeablepipevn/bin/activate
-pip3 install virt-lightning
+pip install --upgrade pip
+pip install virt-lightning
 
 vl down
 vl fetch centos-7
