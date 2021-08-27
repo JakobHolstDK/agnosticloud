@@ -1,5 +1,5 @@
 sudo dnf -y update
-sudo dnf  install qemu-kvm qemu-img virt-manager virt-viewer libvirt-daemon python3-pip  libvirt-client dnsmasq  python3.8-venv pkg-config 
+sudo dnf  install qemu-kvm qemu-img virt-manager virt-viewer libvirt-daemon python3-pip  libvirt-client dnsmasq  python3-virtualenv pkg-config 
 
 
 
