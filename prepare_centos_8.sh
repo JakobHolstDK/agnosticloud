@@ -12,3 +12,7 @@ sudo systemctl start libvirtd
 sudo systemctl enable libvirtd
 sudo systemctl status libvirtd
 
+sudo dnf install epel-release
+sudo dnf install ansible
+
+
