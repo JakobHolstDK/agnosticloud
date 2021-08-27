@@ -1,406 +1,406 @@
 - name: aodh
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: barbican
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: blazar
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: ceilometer
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: cinder
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: cloudkitty
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: common
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: compute
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: compute01
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: control
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: control01
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: control02
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: control03
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: cyborg
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: deployment
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: designate
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: elasticsearch
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: freezer
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: glance
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: gnocchi
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: haproxy
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: heat
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: ironic
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: magnum
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: manila
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: manila-share
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: mariadb
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: memcached
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: mistral
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: monasca
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: monasca-agent
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: monitoring
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: monitoring01
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: murano
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: network
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: network01
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: network02
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: neutron
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: nova
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: octavia
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: ovn-controller-compute
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: ovn-controller-network
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: ovn-database
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: panko
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: placement
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: sahara
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: senlin
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: skydive
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: solum
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: storage
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: storage01
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: storm
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: swift
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: tacker
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: trove
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: vitrage
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: watcher
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
 - name: zun
-distro: centos-8
-memory: 2096
-vcpus: 2
-bootcmd:
+  distro: centos-8
+  memory: 2096
+  vcpus: 2
+  bootcmd:
   - yum update -y
 
