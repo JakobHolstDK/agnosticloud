@@ -5,6 +5,6 @@ do
   echo "  memory: 2096"
   echo "  vcpus: 2"
   echo "  bootcmd:"
-  echo "  - yum update -y"     
+  echo "    - yum update -y"     
   echo 
 done
