@@ -1,5 +1,5 @@
 sudo dnf -y update
-sudo dnf  install qemu-kvm qemu-img virt-manager virt-viewer libvirt-daemon python3-pip  libvirt-client dnsmasq  python3-virtualenv pkg-config libvirt
+sudo dnf  install qemu-kvm qemu-img virt-manager virt-viewer libvirt-daemon python3-pip  libvirt-client dnsmasq  python3-virtualenv pkg-config libvirt gcc make
 sudo su -c "useradd miracle -s /bin/bash -m -g libvirt -G qemu"
 sudo mkdir -p /var/lib/virt-lightning/pool/upstream
 sudo chown -R qemu:kvm /var/lib/virt-lightning/pool
