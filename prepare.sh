@@ -1,13 +1,7 @@
 /usr/bin/rm -r  /tmp/disposeablepipevn 2>/dev/null
 python3 -m vevn /tmp/disposeablepipevn
 source /tmp/disposeablepipevn/bin/activate
-
 pip3 install virt-lightning
-sudo mkdir -p /var/lib/virt-lightning/pool/upstream
-sudo chown -R qemu:qemu /var/lib/virt-lightning/pool
-sudo chown -R jho /var/lib/virt-lightning/pool/upstream
-sudo chmod 775 /var/lib/virt-lightning
-sudo chmod 775 /var/lib/virt-lightning/pool /var/lib/virt-lightning/pool/upstream
 
 vl down
 vl fetch centos-7
